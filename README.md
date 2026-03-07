@@ -19,19 +19,31 @@ A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that 
 
 ## Install
 
-### Claude Code
+### Using npx skills (recommended)
+
+```bash
+npx skills add ParthJadhav/app-store-screenshots
+```
+
+This works with Claude Code, Cursor, Windsurf, OpenCode, Codex, and [40+ other agents](https://github.com/vercel-labs/skills#available-agents).
+
+Install globally (available across all projects):
+
+```bash
+npx skills add ParthJadhav/app-store-screenshots -g
+```
+
+Install for a specific agent:
+
+```bash
+npx skills add ParthJadhav/app-store-screenshots -a claude-code
+```
+
+### Manual (git clone)
 
 ```bash
 git clone https://github.com/ParthJadhav/app-store-screenshots ~/.claude/skills/app-store-screenshots
 ```
-
-### Cursor / Windsurf / Other agents
-
-Copy the `app-store-screenshots/SKILL.md` file into your project's rules or instructions directory (e.g., `.cursor/rules/`, `.windsurfrules`, or wherever your agent reads custom instructions from). Also copy `app-store-screenshots/mockup.png` into your project.
-
-### Manual
-
-Just drop the `SKILL.md` contents into your agent's system prompt or project instructions. The skill is a self-contained markdown document with all the guidelines needed.
 
 ## Usage
 

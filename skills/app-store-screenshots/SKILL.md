@@ -76,11 +76,7 @@ npm install html-to-image
 
 ### Copy the Phone Mockup
 
-The skill includes a pre-measured iPhone mockup at `mockup.png` (in this skill's directory). Copy it to the project:
-
-```bash
-cp ~/.claude/skills/app-store-screenshots/app-store-screenshots/mockup.png public/mockup.png
-```
+The skill includes a pre-measured iPhone mockup at `mockup.png` (co-located with this SKILL.md). Copy it to the project's `public/` directory. The mockup file is in the same directory as this skill file.
 
 ### File Structure
 
